@@ -1,0 +1,783 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@1,300&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    border: none;
+    box-sizing: border-box;
+}
+
+
+h3 {
+text-align: center;
+font-family: lato;
+font-size: 40px;
+color:darkslategray;
+text-decoration: underline;
+
+}
+.container {
+  display: flex;
+  flex-direction: row;
+}
+
+
+.boss p {
+  margin-top: 15px;
+}
+.background p {
+ margin-top: 15px;
+}
+
+body {
+    font-family: lato, sans-serif;
+    font-weight: 300;
+    color:seagreen;
+   
+}
+nav {
+     width: 100%;
+     height: 60px;
+     background-color:rgba(40, 116, 105, 0.226);
+    font-family: arial;
+    font-size: 50px;
+    line-height: 55px;
+    top: 0;
+    position: fixed;
+    
+}
+#hos {
+  font-size: 35px; 
+  color:rgb(51, 83, 83);
+  font-weight: 500;
+}
+
+#ab {
+  font-size: 35px; 
+  font-family: lato;
+  color:rgb(56, 98, 98);
+  margin: 0 auto;
+  font-weight: 500;
+}
+
+#signs {
+  font-size: 35px; 
+  font-family: lato;
+  color:rgb(42, 74, 74);
+  margin: 0 auto;
+ 
+  font-weight: 500;
+}
+
+#works {
+  font-size: 35px; 
+  font-family: lato;
+  color:rgb(51, 77, 77);
+  margin: 0 auto;
+ 
+  font-weight: 500;
+}
+
+h1 {
+font-family: lato, sans-serif;
+text-transform: uppercase;
+letter-spacing: 4px;
+color:darkslategrey;
+
+}
+h2 {
+text-align: center;
+color:beige;
+font-size: 40px;
+font-weight: 700;
+background-color: rgba(44, 57, 65, 0.5);
+height: 180px;
+padding: 20px;
+}
+
+.Light-blue-background {
+  background-color:lightblue;
+
+
+}
+
+
+#logo {
+    float: left;
+    font-size: 180%;
+    margin: 0 auto;
+
+}
+#menu {
+   font-size: 120%;
+   letter-spacing: 5px;
+}
+
+#menu li {
+   display: block;
+   width: 100%;
+   text-align: center;
+}
+#bar_menu {
+
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 70%;
+  text-decoration: none;
+  color:darkslategray;
+  margin: 0 auto;
+}
+/* #menu ul li {
+    float: right;
+    list-style: none;
+    position: relative;
+} */
+#bar_menu a:hover {
+    border-bottom: 1px solid cadetblue;
+}
+#hero-image {
+
+    height: 600px;
+    width: 900px;
+    background: url('../images/hero-image.webp') no-repeat center center;
+    background-size: cover;
+    margin: auto;
+    width: 100%;
+    padding-top: 300px;
+    padding-right: 10px;
+
+   
+}
+
+  p {
+    text-align: center;
+    color:darkslategray;
+    font-size: 20px
+  }
+
+  header {
+    background:rgba(47, 75, 93, 0)
+  }
+   a {
+    font-family: lato;
+  }
+  
+  .running_sky {
+    height: 80px;
+    width:80px;
+    border-radius: 50%;
+    text-align: center;
+    margin: 0 auto;
+  
+  }
+  .lee_is_boss {
+    height: 80px;
+    width:80px;
+    border-radius: 50%;
+    text-align: center;
+   
+    margin: 0 auto;
+  }
+  .immerse_yourself {
+    height: 80px;
+    width:80px;
+    border-radius: 50%;
+   text-align: center;
+    margin: 0 auto;
+  }
+
+
+  #mind_image {
+    width: 33%;
+    display: inline-block;
+    text-align: center;
+    
+  }
+  #lee_image {
+    width: 33%;
+    display: inline-block;
+    text-align: center
+  }
+  #kar_image {
+
+    width: 33%;
+    display: inline-block;
+    text-align: center;
+  }
+
+  #abs-heading {
+    text-align: center;
+    text-decoration: underline;
+    color:darkslategray;
+    font-size: 50px;
+    font-weight: 700;
+    
+  
+  
+  }
+   
+  .background {
+    background-color:rgb(242, 247, 248);
+  }
+    .Light-blue-background p {
+        padding-top: 15px;
+    }
+    #squats p {
+      padding-top: 15px;
+    }
+  
+  iframe {
+    width: 100%;
+  }
+  
+
+
+@media screen and (max-width: 375px) {
+  #mind-image {
+    height: 40px;
+    width: 70px;
+    text-align: center;
+
+    }
+    #menu li {
+    float: none;
+    margin-right: 0;
+    display: inline;
+    
+
+    }
+  
+    #hero-image {
+    width: 100%;
+    
+    }
+
+    #lee-image {
+    height: 70px;
+    width: 33%;
+    text-align: center;
+    flex-direction: row;
+    
+    }
+    #mind-image {
+    height: 70px;
+    width: 33%;
+    text-align: center;
+    flex-direction: row;
+    }
+    #kar_image {
+    height: 70px;
+    width: 33%;
+    text-align: center;
+    flex-direction: row;
+    }
+    
+    #logo {
+      
+      font-size: 100%;
+      text-align: center;
+      width: 100%;
+  
+    }
+    #hos {
+
+    margin: 0 auto;
+    padding: 0;    
+    max-width: 100%;  
+    font-size: medium;
+    flex-direction: row;
+    
+    }
+    #works {
+    padding: 0;
+    margin: 0 auto;    
+    max-width: 100%;  
+    font-size: medium;
+    flex-direction: column;
+    
+      
+
+    }
+    #ab {
+      padding: 0;
+      margin: 0 auto;   
+    max-width: 100%;  
+    font-size: medium;
+    flex-direction: row;
+    }
+    html {
+      overflow-y: scroll; 
+    }
+    
+    
+    #signs {
+      margin: 0 auto;   
+      max-width: 100%;  
+      font-size: medium;
+      flex-direction: row;
+
+
+    }
+    .bar_menu {
+      display: flex;
+      flex-direction: row;
+    }
+    nav {
+      width: 100%;
+      height: 142px;
+      background-color:rgba(32, 184, 179, 0.258);
+      font-family: arial;
+      font-size: 30px;
+      line-height: 55px;
+      top: 0;
+      position: relative;
+    
+      }
+
+}
+  
+@media screen and (max-width: 414px) {
+  #menu li {
+    float: none;
+    margin-right: 0;
+    display: inline;
+    padding: 5px;
+    font-size: small;
+    
+  }
+  #mind-image {
+    height: 40px;
+    width: 70px;
+    text-align: center;
+
+   }
+   #hero-image {
+    width: 100%;
+   }
+   #signs {
+    font-size: 15px;
+  }
+  #ab {
+    font-size: 15px;
+  }
+  #works {
+  font-size: 15px;
+  
+  }
+  #hos {
+  font-size: 15px;
+  }
+   #lee-image {
+    height: 40px;
+    width: 70px;
+    text-align: center;
+   }
+   
+   #logo {
+    
+      font-size: 100%;
+      text-align: center;
+      width: 100%;
+  
+   }
+  
+    #bar_menu {
+      margin-right: auto;    
+    margin-left: auto;    
+    max-width: 100%;  
+    font-size: small;
+    flex-direction: row;
+
+    }
+
+    nav { 
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    height: 190px;
+    background-color:rgba(198, 52, 52, 0.271);
+   font-family: lato;
+   font-size: 20px;
+   line-height: 65px;
+   top: 0;
+   position: relative;
+    }
+
+}
+
+@media only screen and (max-width: 480px) {
+  #menu li {
+    float: none;
+    margin-right: 0;
+    display: inline;
+    padding: 5px;
+    font-size: small;
+    
+  }
+  #logo {
+      font-size: 100%;
+      text-align: center;
+      width: 100%;
+}
+#signs {
+  font-size: 15px;
+}
+#ab {
+  font-size: 15px;
+}
+#works {
+font-size: 15px;
+
+}
+#hos {
+font-size: 15px;
+
+}
+#hero-image {
+    width: 100%;
+    
+}
+#lee-image {
+  height: 70px;
+  width: 70px;
+  text-align: center;
+  
+  padding: 0;
+  }
+  #mind-image {
+  height: 70px;
+  width: 70px;
+  text-align: center;
+  
+  padding: 0;
+  }
+  #kar_image {
+  height: 70px;
+  width: 70px;
+  text-align: center;
+  padding: 0;
+  
+  }
+
+h2 {
+
+  text-align: center;
+  width: 100%
+}
+
+nav {
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    height: 210px;
+    background-color:rgba(0, 204, 255, 0.311);
+    font-family: lato;
+    font-size: 50px;
+    line-height: 65px;
+    top: 0;
+    position: relative;
+    
+}
+
+  h3 {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.sides img {
+  width: 100%;
+  height: 400px;
+  text-align: center;
+  margin-left: 15px;
+}
+#squats img {
+  width: 100%;
+  height: 200px;
+  text-align: center;
+}
+
+}
+
+@media screen and (max-width: 768px) {
+  #menu li {
+    float: right;
+    margin-right: 0;
+    display: inline;
+    padding: 10px;
+    
+  }
+ #logo {
+  font-size: 100%;
+  text-align: center;
+  width: 100%;
+ }
+ nav {
+  width: 100%;
+  height: 180px;
+  background-color:rgba(135, 53, 158, 0.168);
+ font-family: arial;
+ font-size: 50px;
+ line-height: 55px;
+ top: 0;
+ position: relative;
+ }
+ #hero-image {
+
+    width: 100%;
+    
+ }
+ #mind-image {
+  height: 50px;
+  width: 100px;
+  text-align: center;
+ }
+ 
+ h2 {
+  text-align: center;
+ }
+
+ #lee-image {
+  height: 50px;
+  width: 100px;
+  text-align: center;
+ }
+ .container-1 {
+  font-size: 1px;
+  text-align: right;
+ }
+ #bar_menu {
+  font-size: 70px;
+
+ }
+}
+
+@media only screen and (min-width: 960px) {
+  #menu li {
+    float: right;
+    margin-right: 0;
+    display: inline;
+    padding: 10px;
+    
+  }
+  #logo {
+    font-size: 120%;
+  }
+
+
+h2 {
+
+  text-align: center;
+  width: 100%;
+}
+
+nav {
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    height: 100px;
+    background-color:rgba(170, 163, 41, 0.271);
+   font-family: lato;
+   font-size: 50px;
+   line-height: 65px;
+   top: 0;
+   position: relative;
+   
+}
+
+
+
+
+#lee_image {
+  height: 50%;
+  width: 50%;
+
+}
+
+#mind_image {
+  height: 50%;
+    width: 50%;
+   
+}
+
+#kar_image {
+   height: 50%;
+    width: 50%;
+    
+
+}
+.container {
+  flex: 30%;
+  padding: 5px;
+}
+
+ h3 {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.sides img {
+ width: 60%;
+ height: 400px;
+ text-align: center;
+}
+#squats img {
+  width: 60%;
+  text-align: center;
+  
+}
+
+}
+
+@media screen and (max-width: 1024px) {
+  #menu li {
+    float: right;
+    margin-right: 0;
+    display: inline;
+    padding: 10px;
+    
+  }
+  .container {
+    display: flex;
+    flex-direction: row;
+  }
+  
+  #logo {
+      font-size: 120%;
+  }
+  
+  
+  h2 {
+
+    text-align: center;
+  }
+
+  nav {
+      padding: 0;
+      margin: 0;
+      width: 100%;
+      height: 130px;
+      background-color:rgba(79, 146, 38, 0.271);
+      font-family: arial;
+      font-size: 30px;
+      line-height: 65px;
+      position: relative;
+      top: 0;
+  }
+  
+  .container {
+    display: flex;
+    flex-direction: row;
+    flex: 30%;
+    padding: 10px;
+  }
+  #lee_image {
+
+  width: 150px;
+  border-radius: 50%;
+  text-align: center;
+  
+  }
+  
+
+  #mind_image {
+    
+    width: 150px;
+    border-radius: 50%;
+  }
+
+  #kar_image {
+  width: 150px;
+  border-radius: 50%;
+  }
+  #hero-image {
+    width: 100%;
+  }
+    
+
+    h3 {
+      text-align: center;
+      margin-top: 20px;
+  }
+
+  .sides img {
+    width: 100%;
+    height: 400px;
+    text-align: center;
+  }
+  #squats img {
+    width: 100%;
+    text-align: center;
+  }
+  
+}
+
+ /*desktops*/
+/*small mobile phones*/
+
+
+
+
+
+  
+  .sign_up-form{
+  width: 100%;
+  Margin: 10px;
+  font-size:18px;
+  border:4px darkslategray;
+  Padding:30px;
+  }
+  label{
+  display:block;
+  padding:15px;
+  font-size:25px;
+  }
+  input,textarea{
+  display:block;
+  width:44%;
+  border:2px solid#298089;
+  padding:5px;
+  font-size:18px;
+  border-radius:10px;
+  }
+  input[type=”submit”] {
+  cursor:pointer;
+  border:none;
+  background-color:#343050;
+  color:white;
+  Margin:25px 0;
+  width:100%;
+  }
+
+  input[type=”submit”]
+  :hover {
+  background-color:burlywood;
+  }
+  /*got from website*/
+     
+.socials i {
+    padding: 0 30px;
+    color:darkslategray;
+    font-size: 50px;
+    padding-left: 260px;
+    
+}
+
+.socials {
+    display: inline;
+    
+}
+.socials {
+  margin: 20px;
+}
+
+
+
+.socials i:hover {
+    color: #142a2b;
+}
+
+h6 {
+  text-align: center;
+  padding-top: 30px;
+  color:black;
+  font-size: medium;
+}

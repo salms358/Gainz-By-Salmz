@@ -1,0 +1,15 @@
+{
+	"folders": [
+		{
+			"path": "../.."
+		},
+		{
+			"path": "../../.."
+		}
+	],
+	"settings": {
+		"files.autoSave": "afterDelay",
+		"workbench.colorTheme": "Visual Studio Dark",
+		"terminal.integrated.gpuAcceleration": "canvas"
+	}
+}

@@ -1,108 +1,57 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
+# Gainz By Salmz
 
-Welcome USER_NAME,
+## Gainz by Salmz is a website that is designed to help individuals improve the physical and mental health. The website the most effective excersises for both Abs and Legs which would be beneficial to both beginners and advanced users. Additionally Gainz by Salmz includes a video from a Karate film which preaches that we all have our obstacles but we have to work hard to overcome them. Moreover, the website entails a sign up page where users can sign up to a newsletter where they can recieve a quote of the day and a daily excersie to improve health. We understand that we all have different goals, Gainz By Salmz will help to achieve them and meet like-minded people. 
 
-This is the Code Institute student template for Gitpod. We have preinstalled all of the tools you need to get started. It's perfectly ok to use this template as the basis for your project submissions.
+# Features:
+## The main homepage consists of the Hero-image which is of a man running across a straight bridge in a beautiful Autumn season. Theres a caption which says to be the best version of yourself as this would motivate the users to get started on their journey to achieve their goals whether they are long term or short term.
+## The about page entails a little introduction to the website and the purpose of it. It tells the users that we are there for them and the hardest part of this journey is getting started.
 
-You can safely delete this README.md file, or change it for your own project. Please do read it at least once, though! It contains some important information about Gitpod and the extensions we use. Some of this information has been updated since the video content was created. The last update to this file was: **September 1, 2021**
+![image](https://user-images.githubusercontent.com/119611403/215112068-818019f5-9493-4411-8115-99f168d66a50.png)
 
-## Gitpod Reminders
+# workouts
+## The workouts sections includes 2 very essential excersises that are beneficial to both the beginners and advanced users. The section starts off with motivational text to help users get started with the journey. Moreover the following section would be abs which consists of the ab workout of the plank which would target multiple muscle groups simultaneously. There is a picture of how to do the plank as well as a step by step guide to ensure the excersise done properly which would lead to better results in the future.
+![image](https://user-images.githubusercontent.com/119611403/215113525-2710b5cf-8ff1-4162-a220-9b756f4441a9.png)
 
-To run a frontend (HTML, CSS, Javascript only) application in Gitpod, in the terminal, type:
 
-`python3 -m http.server`
 
-A blue button should appear to click: _Make Public_,
 
-Another blue button should appear to click: _Open Browser_.
+## There is also a guide to do squats with good form. I chose these excersises as growing up I was taught that they were the 2 most essential excersises when starting out. Moreover these exercises can be adapted to be made harder for people who are more experienced.
 
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
 
-A blue button should appear to click: _Make Public_,
 
-Another blue button should appear to click: _Open Browser_.
+![image](https://user-images.githubusercontent.com/119611403/215113905-329b4eac-f3a0-4abf-8535-59857000eb06.png)
+# Video Clip
 
-In Gitpod you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
 
-To log into the Heroku toolbelt CLI:
 
-1. Log in to your Heroku account and go to *Account Settings* in the menu under your avatar.
-2. Scroll down to the *API Key* and click *Reveal*
-3. Copy the key
-4. In Gitpod, from the terminal, run `heroku_config`
-5. Paste in your API key when asked
+## I included a special section which includes a video from the karate kid which is a film that has a lot of life lessons which I thought the users can benefit off. It teaches to never give up no matter how bad life obstacles are.
 
-You can now use the `heroku` CLI program - try running `heroku apps` to confirm it works. This API key is unique and private to you so do not share it. If you accidentally make it public then you can create a new one with _Regenerate API Key_.
 
-------
+![image](https://user-images.githubusercontent.com/119611403/215114915-a3c43f0f-d870-4f02-b640-c3c40a956b03.png)
 
-## Release History
+ ## Moreover, my website includes a sign up form in which users would receieve a quote of the day and a daily exercise to fuel their will to learn more about self-improvement. Once users sign up to our website they will be subscribed to our newsletter meaning that they would recieve the following things mentioned previously.
+ 
+ ## Finally, my website contains a footer which has social media buttons which allow people to access our social media pages and recieve information about any updates as well as fun/uplifting videos to lift the spirit.
 
-We continually tweak and adjust this template to help give you the best experience. Here is the version history:
+ # Testing
 
-**September 1 2021:** Remove `PGHOSTADDR` environment variable.
+ ## The website was working the same across microsoft edge, firefox and google chrome.
+  ##  The website had colours that can easily be told apart from so it is easier for users to navigate around the page.
+  ##  The form is validated the submit button leads to the opening of the code institute 'congratulations' page. Moreover if 
+## the user misses out a field the form cannot be submitted and the user will be told to complete the field they missed out in order for their form to be submitted.
 
-**July 19 2021:** Remove `font_fix` script now that the terminal font issue is fixed.
+ # Bugs 
 
-**July 2 2021:** Remove extensions that are not available in Open VSX.
 
-**June 30 2021:** Combined the P4 and P5 templates into one file, added the uptime script. See the FAQ at the end of this file.
 
-**June 10 2021:** Added: `font_fix` script and alias to fix the Terminal font issue
 
-**May 10 2021:** Added `heroku_config` script to allow Heroku API key to be stored as an environment variable.
 
-**April 7 2021:** Upgraded the template for VS Code instead of Theia.
 
-**October 21 2020:** Versions of the HTMLHint, Prettier, Bootstrap4 CDN and Auto Close extensions updated. The Python extension needs to stay the same version for now.
+# Validator testing 
+## -I conducted a HTML validation check where the HTML had no errors. 
+ ##  -Additionally I took my time to correct any CSS as there were a lot of problems regarding indentations and missing semi-colons. I corrected these problems resulting in my CSS being validated.
+ ##  -My HTML was also valid but it had a few warnings about including more headings.
+ ##  -Initially my HTML included a lot of problems which I had to fix one by one a lot of the issues being to do with stray tags
+ ## My code obtained a relatively high accesibility score (90%) meaning that it is easy for users to navigate around the website.
 
-**October 08 2020:** Additional large Gitpod files (`core.mongo*` and `core.python*`) are now hidden in the Explorer, and have been added to the `.gitignore` by default.
 
-**September 22 2020:** Gitpod occasionally creates large `core.Microsoft` files. These are now hidden in the Explorer. A `.gitignore` file has been created to make sure these files will not be committed, along with other common files.
-
-**April 16 2020:** The template now automatically installs MySQL instead of relying on the Gitpod MySQL image. The message about a Python linter not being installed has been dealt with, and the set-up files are now hidden in the Gitpod file explorer.
-
-**April 13 2020:** Added the _Prettier_ code beautifier extension instead of the code formatter built-in to Gitpod.
-
-**February 2020:** The initialisation files now _do not_ auto-delete. They will remain in your project. You can safely ignore them. They just make sure that your workspace is configured correctly each time you open it. It will also prevent the Gitpod configuration popup from appearing.
-
-**December 2019:** Added Eventyret's Bootstrap 4 extension. Type `!bscdn` in a HTML file to add the Bootstrap boilerplate. Check out the <a href="https://github.com/Eventyret/vscode-bcdn" target="_blank">README.md file at the official repo</a> for more options.
-
-------
-
-## FAQ about the uptime script
-
-**Why have you added this script?**
-
-It will help us to calculate how many running workspaces there are at any one time, which greatly helps us with cost and capacity planning. It will help us decide on the future direction of our cloud-based IDE strategy.
-
-**How will this affect me?**
-
-For everyday usage of Gitpod, it doesn’t have any effect at all. The script only captures the following data:
-
-- An ID that is randomly generated each time the workspace is started.
-- The current date and time
-- The workspace status of “started” or “running”, which is sent every 5 minutes.
-
-It is not possible for us or anyone else to trace the random ID back to an individual, and no personal data is being captured. It will not slow down the workspace or affect your work.
-
-**So….?**
-
-We want to tell you this so that we are being completely transparent about the data we collect and what we do with it.
-
-**Can I opt out?**
-
-Yes, you can. Since no personally identifiable information is being captured, we'd appreciate it if you let the script run; however if you are unhappy with the idea, simply run the following commands from the terminal window after creating the workspace, and this will remove the uptime script:
-
-```
-pkill uptime.sh
-rm .vscode/uptime.sh
-```
-
-**Anything more?**
-
-Yes! We'd strongly encourage you to look at the source code of the `uptime.sh` file so that you know what it's doing. As future software developers, it will be great practice to see how these shell scripts work.
-
----
-
-Happy coding!
