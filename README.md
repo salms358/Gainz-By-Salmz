@@ -8,11 +8,16 @@
 
 ![image](https://user-images.githubusercontent.com/119611403/215112068-818019f5-9493-4411-8115-99f168d66a50.png)
 
-# workouts
+# Goals
+## -I want to make a difference to help people who struggle to get started with their self-improvement journey.
+## -The steps provided help individuals improve their form when performing the exercises.
+## -To enable users to sign up to the website newletter to recieve any new about upcoming updates and a daily quote of the day.
+
+# Workouts
 ## The workouts sections includes 2 very essential excersises that are beneficial to both the beginners and advanced users. The section starts off with motivational text to help users get started with the journey. Moreover the following section would be abs which consists of the ab workout of the plank which would target multiple muscle groups simultaneously. There is a picture of how to do the plank as well as a step by step guide to ensure the excersise done properly which would lead to better results in the future.
 ![image](https://user-images.githubusercontent.com/119611403/215113525-2710b5cf-8ff1-4162-a220-9b756f4441a9.png)
 
-
+ 
 
 
 ## There is also a guide to do squats with good form. I chose these excersises as growing up I was taught that they were the 2 most essential excersises when starting out. Moreover these exercises can be adapted to be made harder for people who are more experienced.
@@ -31,27 +36,32 @@
 
  ## Moreover, my website includes a sign up form in which users would receieve a quote of the day and a daily exercise to fuel their will to learn more about self-improvement. Once users sign up to our website they will be subscribed to our newsletter meaning that they would recieve the following things mentioned previously.
  
- ## Finally, my website contains a footer which has social media buttons which allow people to access our social media pages and recieve information about any updates as well as fun/uplifting videos to lift the spirit.
+  ## Finally, my website contains a footer which has social media buttons which allow people to access our social media pages and recieve information about any updates as well as fun/uplifting videos to lift the spirit.
+  # User stories 
+  ##
+  # Testing 
 
- # Testing
-
- ## The website was working the same across microsoft edge, firefox and google chrome.
+  ## The website was working the same across microsoft edge, firefox and google chrome.
   ##  The website had colours that can easily be told apart from so it is easier for users to navigate around the page.
-  ##  The form is validated the submit button leads to the opening of the code institute 'congratulations' page. Moreover if 
-## the user misses out a field the form cannot be submitted and the user will be told to complete the field they missed out in order for their form to be submitted.
-
- # Bugs 
+  ##  The form is validated the submit button leads to the opening of the code institute 'congratulations' page. Moreover 
+  ## if the user misses out a field the form cannot be submitted and the user will be told to complete the field they missed out in order for their form to be submitted.
 
 
 
+  # Bugs 
+  ## Whilst finishing up my website when checking my code the entire menu disappeared for the mobile screen size which was very concerning. To combat this I had to read through my code...
+  ## My files were not linking 
+
+ # User stories
+ ## 
 
 
 
-# Validator testing 
-## -I conducted a HTML validation check where the HTML had no errors. 
- ##  -Additionally I took my time to correct any CSS as there were a lot of problems regarding indentations and missing semi-colons. I corrected these problems resulting in my CSS being validated.
- ##  -My HTML was also valid but it had a few warnings about including more headings.
- ##  -Initially my HTML included a lot of problems which I had to fix one by one a lot of the issues being to do with stray tags
+  # Validator testing 
+  ## -I conducted a HTML validation check where the HTML had no errors. 
+  ##  -Additionally I took my time to correct any CSS as there were a lot of problems regarding indentations and missing semi-colons. I corrected these problems resulting in my CSS being validated.
+  ##  -My HTML was also valid but it had a few warnings about including more headings.
+  ##  -Initially my HTML included a lot of problems which I had to fix one by one a lot of the issues being to do with stray tags
  ## My code obtained a relatively high accesibility score (90%) meaning that it is easy for users to navigate around the website.
 
 
