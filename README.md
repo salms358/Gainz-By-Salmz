@@ -1,11 +1,11 @@
 
 
- # Gainz by Salmz
+ # Gainz By Salmz
 
     Gainz by Salmz is a website designed to help individuals improve their physical and mental health. The website includes the most effective exercises for both Abs and Legs.
     
     
-    Additionally, Gainz by Salmz includes a video from a Karate movie for a motivation boost. Moreover, the website entails a sign-up page where users can sign up for a newsletter to receive a quote of the day and any updates.
+    Additionally, Gainz By Salmz includes a video from a Karate movie for a motivation boost. Moreover, the website entails a sign-up page where users can sign up for a newsletter to receive a quote of the day and any updates.
 
     We understand that we all have different goals, and Gainz By Salmz will help to achieve them and meet like-minded people. 
 
@@ -193,3 +193,5 @@ Bruce Lee quote [picture](https://quotefancy.com/quote/778956/Bruce-Lee-Be-a-cal
 1. Got to settings in Github repository.
 2. Select main-branch from the source drop-down menu
 3. Once selected code for the website should be provided
+
+Website link [Gainz by Salmz](https://salms358.github.io/Gainz-By-Salmz)
