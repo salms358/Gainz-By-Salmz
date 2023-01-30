@@ -36,14 +36,14 @@ The about page entails a little introduction to the website and its purpose of i
 
 # Goals
     -I want to make a difference to help people who struggle to get started with their self-improvement journey.
-    -The steps provided help individuals improve their form when performing the exercises.
+    -The steps provided help individuals improve their form when exercising.
     -To enable users to sign up for the website newsletter to receive any news about upcoming updates and a daily quote of the day.
 
 # Workouts page
     The workout sections include 2 very essential exercises that are beneficial to both beginners and advanced users. 
     
     
-    The section starts with motivational text to help users begin their journey.  Followed by 2 sub-sections Abs and Legs
+    The section starts with motivational text to help users begin their journey. Followed by 2 sub-sections Abs and Legs
 
     There is a picture of how to do the exercise and a step-by-step guide to ensure the exercise is completed in good form.
 
@@ -67,12 +67,12 @@ The about page entails a little introduction to the website and its purpose of i
 ## Sign up form
     -My website includes a sign-up form in which users would receive a quote of the day and a daily exercise to fuel their will to learn more about self-improvement. 
     
-    -Once users sign up to our website they will be subscribed to our newsletter meaning that they would receive the following things mentioned previously.
+    -Once users sign up to our website they will be subscribed to our newsletter.
 ## Footer
     -My website contains a footer which has social media buttons which allow people to access our social media pages and receive information about any updates. 
 
 -The social media buttons go with the theme of the website.
- 
+ [Footer image](https://github.com/salms358/Gainz-By-Salmz/blob/main/documents/social%20media%20.jpg)
 
 
 
@@ -96,10 +96,9 @@ The about page entails a little introduction to the website and its purpose of i
 
     The website was working the same across Microsoft edge, firefox and google chrome.
 
-      The website had colours that can easily be told apart from so it is easier for users to navigate around the page.
+    The website has contrasting-colours so it is easier for users to read the information.
 
-      The form is validated the submit button leads to the opening of the code institute 'congratulations' page. Moreover,
-    if the user misses out on a field the form cannot be submitted and the user will be told to complete the field they missed out on for their form to be submitted.
+    The form is validated the submit button leads to the opening of the code institute 'congratulations' page. Moreover, if the user misses out on a field the form cannot be submitted and the user will be told to complete the field they missed out on for their form to be submitted.
 
 
     ## Validator testing
@@ -126,9 +125,9 @@ The about page entails a little introduction to the website and its purpose of i
 
 
   # Fixed Bugs 
-    -Menu disappeared when the screen was changed to a mobile format which was resolved by adding the override x.
+    -Menu disappeared when the screen was changed to a mobile format which was resolved by adding the override x visible instead of hidden.
     -Social media buttons were out of place I used margin-left to ensure that the social media buttons were in place. 
-    -My hero image was too big which led to horizontal scrolling to combat this I centred my image and increased the width to 100% so it takes up the whole page.
+    -Horizontal scrolling I increased the width of all images to 100% so it takes up the whole page.
     
   # Known Bugs 
     -One of the circular images moves slightly out of place when the screen is set to tablet format.
@@ -151,9 +150,9 @@ Am I Responsive https://ui.dev/amiresponsive - Used to verify responsiveness of 
 
 Responsinator - http://www.responsinator.com/ Used to verify the responsiveness of the website on different devices.
 
-Balsamiq - wireframes.bmpr Wireframe images.
+Balsamiq - https://balsamiq.cloud/sssuycb/pl1rhqc Wireframe images.
 
-Chrome Developer Tools - Used for overall development and tweaking, including testing responsiveness and performance.
+Chrome Developer Tools - Used for changing details and testing responsiveness accessed by pressing f12.
 
 Font Awesome - https://fontawesome.com/ Social Media icons in footer.
 
