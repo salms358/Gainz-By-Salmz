@@ -187,3 +187,9 @@ Image of a man doing karate in sunrise [image](https://www.freepik.com/free-phot
 mind image [image](https://www.goalcast.com/love-yourself-enough-be-own-parent/)
 
 Bruce Lee quote [picture](https://quotefancy.com/quote/778956/Bruce-Lee-Be-a-calm-beholder-of-what-is-happening-around-you)
+
+
+# Deployment
+1. Got to settings in Github repository.
+2. Select main-branch from the source drop-down menu
+3. Once selected code for the website should be provided
