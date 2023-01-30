@@ -67,6 +67,10 @@ The about page entails a little introduction to the website and the purpose of i
 ## Footer
     -My website contains a footer which has social media buttons which allow people to access our social media pages and recieve information about any updates. 
 
+    
+
+
+
     -The social media buttons go with the theme of the website.
   # User stories 
   ## First time user
@@ -93,6 +97,9 @@ The about page entails a little introduction to the website and the purpose of i
       The form is validated the submit button leads to the opening of the code institute 'congratulations' page. Moreover,
     if the user misses out a field the form cannot be submitted and the user will be told to complete the field they missed out in order for their form to be submitted.
 
+  -HTML Validation (https://validator.w3.org/nu/?doc=https%3A%2F%2F8000-salms358-gainzbysalmz-0rontsg3e4e.ws-eu84.gitpod.io%2Findex.html%23form)
+      - css Validation (https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2F8000-salms358-gainzbysalmz-0rontsg3e4e.ws-eu84.gitpod.io%2Findex.html%23form&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en)
+
 
 
   # Fixed Bugs 
@@ -107,9 +114,11 @@ The about page entails a little introduction to the website and the purpose of i
     -HTML
     -CSS
 
- # Wireframes
-  -
-
+ # Wireframe
+      -Wireframe when first planning the website.
+      
+      -https://github.com/salms358/Gainz-By-Salmz/blob/main/assets/images/Gainz%20by%20Salmz.bmpr
+    
 
 
   # Validator testing 
@@ -117,7 +126,9 @@ The about page entails a little introduction to the website and the purpose of i
       -Additionally I took my time to correct any CSS as there were a lot of problems regarding indentations and missing semi-colons. I corrected these problems resulting in my CSS being validated.
       -My HTML was also valid but it had a few warnings about including more headings.
       -Initially my HTML included a lot of problems which I had to fix one by one a lot of the issues being to do with stray tags
-      -My code obtained a relatively high accesibility score (90%) meaning that it is easy for users to navigate around the website.
+      -My code obtained a relatively high accesibility score (94%) meaning that it is easy for users to navigate around the website.
+
+      https://github.com/salms358/Gainz-By-Salmz/blob/main/assets/images/accessibility%20score.jpg
 
  # Links
  Wiki how for the instruction for both the plank excersise and squat exercise.
@@ -126,12 +137,26 @@ The about page entails a little introduction to the website and the purpose of i
 
       Responsinator - Used to verify responsiveness of website on different devices.
 
-      Balsamiq - Used to generate Wireframe images.
+      Balsamiq - Wireframe images.
 
-      Chrome Dev Tools - Used for overall development and tweaking, including testing responsiveness and performance.
+      Chrome Developer Tools - Used for overall development and tweaking, including testing responsiveness and performance.
 
       Font Awesome - Social Media icons in footer.
 
-      GitHub - Used for version control and hosting.
-      Google Fonts - Used to import and alter fonts on the page.
+      Google Fonts - Used to import fonts on the website.
+
+      Wiki How- Exercise descriptions
       
+ # Credits
+     -My Mentor Antonio
+
+     -W3 schools
+
+     -Stack Overflow
+
+     - Alison O Keefes Mind website example 
+
+     - Wiki How for describing how to perform exercises step by step
+  
+## Media
+Hero-image: Wallpaper Cave

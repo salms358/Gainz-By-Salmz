@@ -7,7 +7,7 @@
     box-sizing: border-box;
     overflow-x: visible;
 }
-
+/*Ensures that the font and colour of the font remain the same throughout the website*/
 body {
     font-family: lato, sans-serif;
     font-weight: 300;
@@ -19,12 +19,12 @@ body {
 header {
   background-color: rgba(170, 163, 41, 0.271);
 }
-
+/*Makes website layout neater*/
 .container {
   display: flex;
   flex-direction: row;
 }
-
+/*nav bar makes sure it goes along the width of the whole website*/
 nav {
   width: 100%;
   font-family: arial;
@@ -32,7 +32,7 @@ nav {
   line-height: 55px;
   top: 0;
 }
-
+/*Logo properties*/
 #logo {
   float: left;
   font-size: x-large;
@@ -44,28 +44,30 @@ nav {
   color:darkslategray;
 
 }
+/*styles the anchor elements makes sure they are not too large and close together*/
 #menu {
   font-size: large;
   letter-spacing: 5px;
 }
-
+/*anchor elements in list stays in the center*/
 #menu li {
   display: block;
   width: 100%;
   text-align: center;
 }
-
+/*font, size color of menu stays consistant*/
 #bar_menu ol li a{
-  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-family: lato;
   font-size: large;
   text-decoration: none;
   color:darkslategray;
   margin: 0 auto;
 }
-
+/*Allows line under anchor when user hovers over each of the anchors apart of the menu*/
 #bar_menu ol li a:hover {
     border-bottom: 1px solid cadetblue;
 }
+/*The main image of the website makes sure the image is centered and at the right size*/
 #hero-image {
   height: 400px;
   width: 100%;
@@ -79,7 +81,7 @@ nav {
   display: block;
   padding-top: 125px;
 }
-
+/*The h2 just under the menu makes sure the test is bordered and bold so it stands out to users*/
 #text_caption{
   position: relative;
   width: 100%;
@@ -89,7 +91,7 @@ nav {
   color: white;
   padding-top: 20px;
 }
-
+/*All p elements will have the same text,alignment colour and font*/
 p {
   text-align: center;
   color:darkslategray;
@@ -99,11 +101,11 @@ p {
 a {
   font-family: lato;
 }
-  
+  /*All text in sections are centered*/
 #about-us, #workout, #abs, #squats{
   text-align: center;
 }
-
+/*The title of each section is of the same font, size,colour, decoration and alignment*/
 .section-title{
   font-family: lato;
   font-size: xx-large;
@@ -112,7 +114,7 @@ a {
   padding-top: 15px;
   padding-bottom: 15px;
 }
-
+/*text of the sections are the same across whole of code making the website neater and be more eye-catching to the users*/
 .section-text, ol li p{
   text-align: center;
   color: darkslategray;
@@ -122,14 +124,18 @@ a {
   padding-right: 20px;
 }
 
-.image-holder{
+.image-holder {
   margin-left: 9%;
   display: inline;
 }
-
-  .round-image{
+  iframe {
+    width: 100%;
+    height: 315px;
+  }
+/*makes images underneath about-section text round and be beside each other I got inspiration from a example websites*/
+  .round-image {
     height: 80px;
-    width: 80px;
+    width: 63px;
     border-radius: 50%;
     text-align: center;
     margin-top: 30px;
@@ -137,8 +143,8 @@ a {
 #workout{
   background-color: lightblue;
 }
-
-.picture-holder{
+/*Image of lady doing squat which goes across the page*/
+.picture-holder {
   width: 100%;
   height: auto;
 }
@@ -147,7 +153,7 @@ a {
   width: 100%;
   height: 200px;
 }
-
+/*sign up form got idea from code institute videos and w3schools but adapted my own way*/
 .sign_up-form {
   width: 70%;
   margin-left: 15%;
@@ -181,6 +187,8 @@ input[type=”submit”]
 :hover {
   background-color:burlywood;
 }
+/*end of sign-up form*/
+/*start of social media icons from font awesome*/
 .socials i {
   padding: 0 30px;
   color:darkslategray;
@@ -202,15 +210,16 @@ input[type=”submit”]
  width: 100%;
  display: block;
 }
-
-
+/*End of social media icons*/
+/*Copyright caption underneath socail media icons*/
 h6 {
   text-align: center;
   padding-top: 30px;
   color:black;
   font-size: medium;
 }
-
+/*media queiries*/
+/*Phone screens/small screens*/
 @media only screen and (min-width: 481px) {
   #logo {
     font-size: large;
@@ -231,7 +240,7 @@ h6 {
   }
   .round-image {
     height: 200px;
-    width: 180px;
+    width: 147px;
   }
   .picture-holder img{
     height: 350px;
@@ -242,7 +251,7 @@ h6 {
   }
 }
 
-
+/*I-pad screens*/
 @media only screen and (min-width: 768px) {
   #hero-image {
     height: 600px;
@@ -267,7 +276,7 @@ h6 {
     display: inline;
   }
 }
-
+/*laptop screens/big screens*/
 @media only screen and (min-width: 1025px) {
 
   .image-holder{
