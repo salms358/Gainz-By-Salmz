@@ -7,7 +7,8 @@
     
     We understand that we all have different goals, Gainz By Salmz will help to achieve them and meet like-minded people. 
 
-https://ui.dev/amiresponsive?url=https://8000-salms358-gainzbysalmz-0rontsg3e4e.ws-eu84.gitpod.io/
+
+  [Am I responsive](https://ui.dev/amiresponsive?url=https://8000-salms358-gainzbysalmz-0rontsg3e4e.ws-eu84.gitpod.io/)
 
 # Features:
 
@@ -96,9 +97,12 @@ The about page entails a little introduction to the website and the purpose of i
 
       The form is validated the submit button leads to the opening of the code institute 'congratulations' page. Moreover,
     if the user misses out a field the form cannot be submitted and the user will be told to complete the field they missed out in order for their form to be submitted.
+    
+   HTML  [HTML Validation](https://validator.w3.org/nu/?doc=https%3A%2F%2F8000-salms358-gainzbysalmz-0rontsg3e4e.ws-eu84.gitpod.io%2Findex.html%23form)
 
-  -HTML Validation (https://validator.w3.org/nu/?doc=https%3A%2F%2F8000-salms358-gainzbysalmz-0rontsg3e4e.ws-eu84.gitpod.io%2Findex.html%23form)
-      - css Validation (https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2F8000-salms358-gainzbysalmz-0rontsg3e4e.ws-eu84.gitpod.io%2Findex.html%23form&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en)
+
+
+  css  [css Validation](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2F8000-salms358-gainzbysalmz-0rontsg3e4e.ws-eu84.gitpod.io%2Findex.html%23form&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en)
 
 
 
@@ -128,7 +132,7 @@ The about page entails a little introduction to the website and the purpose of i
       -Initially my HTML included a lot of problems which I had to fix one by one a lot of the issues being to do with stray tags
       -My code obtained a relatively high accesibility score (94%) meaning that it is easy for users to navigate around the website.
 
-      https://github.com/salms358/Gainz-By-Salmz/blob/main/assets/images/accessibility%20score.jpg
+  [Lighthouse test results](https://github.com/salms358/Gainz-By-Salmz/blob/main/assets/images/accessibility%20score.jpg)
 
  # Links
  Wiki how for the instruction for both the plank excersise and squat exercise.
@@ -148,15 +152,30 @@ The about page entails a little introduction to the website and the purpose of i
       Wiki How- Exercise descriptions
       
  # Credits
-     -My Mentor Antonio
 
-     -W3 schools
+  ### My Mentor Antonio
 
-     -Stack Overflow
+   ### W3 schools [website](https://www.w3schools.com/)
 
-     - Alison O Keefes Mind website example 
-
-     - Wiki How for describing how to perform exercises step by step
   
-## Media
-Hero-image: Wallpaper Cave
+  ### Stack Overflow [link](https://stackoverflow.com/)
+
+ ### Mind website     [link](https://aliokeeffe.github.io/mindyoga/index.html#about-nav-target)
+
+
+
+ ### Wiki How for describing how to perform exercises step by step  [website](https://www.wikihow.life/Do-a-Squat#:~:text=Doing%20a%20Basic%20Squat%201%201%20Plant%20your,may%20want%20to%20aim%20for%20ten%20reps.%20)
+
+
+
+  
+## Media:
+
+
+Hero-image  [picture](https://www.teahub.io/viewwp/JRTbRR_training-jordan-nike-wallpaper-hd-2016-in-fitness/)
+
+Image of man doing karate in sunrise [image](https://www.freepik.com/free-photo/silhouette-sportive-man-training-karate-field-sunrise_7855141.htm)
+
+mind image [image](https://www.goalcast.com/love-yourself-enough-be-own-parent/)
+
+Bruce Lee quote [picture](https://quotefancy.com/quote/778956/Bruce-Lee-Be-a-calm-beholder-of-what-is-happening-around-you)
